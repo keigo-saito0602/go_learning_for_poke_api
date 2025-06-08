@@ -1,4 +1,4 @@
-module github.com/keigo-saito0602/joumou_karuta_manager
+module github.com/keigo-saito0602/go_learning_for_poke_api
 
 go 1.23
 
