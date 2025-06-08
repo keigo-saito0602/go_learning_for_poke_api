@@ -1,4 +1,4 @@
-# Joumou Karuta Manager
+# go learning for poke api
 
 This is a backend server project built with Go (Echo + GORM), providing a RESTful API with Swagger documentation and database management via migrations.
 

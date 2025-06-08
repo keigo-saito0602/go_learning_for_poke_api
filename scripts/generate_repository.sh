@@ -1,14 +1,14 @@
 NAME=$1
 LOWER=$(echo "$NAME" | tr '[:upper:]' '[:lower:]')
 
-cat <<EOF > infrastructure/repository/${LOWER}_repository.go
+cat <<EOF >infrastructure/repository/${LOWER}_repository.go
 package repository
 
 import (
   "context"
   "log"
 
-  "github.com/keigo-saito0602/joumou_karuta_manager/domain/model"
+  "github.com/keigo-saito0602/go_learning_for_poke_api/domain/model"
   "gorm.io/gorm"
 )
 

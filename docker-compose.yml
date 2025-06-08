@@ -2,7 +2,7 @@ version: "3.8"
 services:
   app:
     build: .
-    container_name: joumou_karuta_manager
+    container_name: go_learning_for_poke_api
     ports:
       - "8080:8080"
     env_file:
@@ -18,7 +18,7 @@ services:
     container_name: DB
     restart: always
     environment:
-      MYSQL_DATABASE: joumou_karuta_manager
+      MYSQL_DATABASE: go_learning_for_poke_api
       MYSQL_USER: user
       MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: password

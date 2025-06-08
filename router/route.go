@@ -3,12 +3,12 @@ package router
 import (
 	"net/http"
 
-	"github.com/keigo-saito0602/joumou_karuta_manager/auth"
-	"github.com/keigo-saito0602/joumou_karuta_manager/interface/handler"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/auth"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/interface/handler"
 	"github.com/labstack/echo/v4"
 	echoSwagger "github.com/swaggo/echo-swagger"
 
-	_ "github.com/keigo-saito0602/joumou_karuta_manager/docs"
+	_ "github.com/keigo-saito0602/go_learning_for_poke_api/docs"
 )
 
 func RegisterRoutes(e *echo.Echo, h *handler.Handlers) {
@@ -28,18 +28,6 @@ func RegisterRoutes(e *echo.Echo, h *handler.Handlers) {
 	// Memo
 	e.GET("/memos", h.Memo.ListMemos)
 	e.GET("/memos/:id", h.Memo.GetMemo)
-
-	// Card
-	e.GET("/cards", h.Card.ListCards)
-	e.GET("/cards/:id", h.Card.GetCard)
-	e.GET("/cards/shuffle", h.Card.ShuffleCards)
-	e.GET("/cards/initial", h.Card.ListCardsByInitial)
-
-	// EventScore
-	e.POST("/event_scores", h.EventScore.CreateEventScore)
-	e.GET("/event_scores/:id", h.EventScore.GetEventScoreWithRank)
-	e.GET("/event_scores", h.EventScore.ListEventScoresWithRank)
-	e.DELETE("/event_scores", h.EventScore.DeleteAllEventScores)
 
 	RegisterAuthRoutes(e, h)
 }

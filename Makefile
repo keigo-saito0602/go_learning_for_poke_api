@@ -14,10 +14,10 @@ DB_HOST ?= db
 DB_PORT ?= 3306
 DB_USER ?= user
 DB_PASSWORD ?= password
-DB_NAME ?= joumou_karuta_manager
+DB_NAME ?= go_learning_for_poke_api
 
-PROJECT_NAME ?= joumou_karuta_manager
-DOCKER_NETWORK_NAME ?= joumou_karuta_manager_default
+PROJECT_NAME ?= go_learning_for_poke_api
+DOCKER_NETWORK_NAME ?= go_learning_for_poke_api_default
 
 # =======================
 # Golang CLI Application

@@ -4,8 +4,8 @@ import (
 	"context"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/keigo-saito0602/joumou_karuta_manager/domain/model"
-	"github.com/keigo-saito0602/joumou_karuta_manager/infrastructure/repository"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/domain/model"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/infrastructure/repository"
 )
 
 type UserValidator struct {

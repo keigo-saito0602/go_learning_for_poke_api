@@ -1,5 +1,5 @@
 ### ビルドステージ ###
-FROM --platform=linux/arm64 golang:1.22-alpine as builder
+FROM --platform=linux/arm64 golang:1.23-alpine as builder
 
 # 必要な環境変数
 ENV CGO_ENABLED=0 \

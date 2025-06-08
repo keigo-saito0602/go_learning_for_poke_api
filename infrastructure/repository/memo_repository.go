@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/keigo-saito0602/joumou_karuta_manager/domain/model"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/domain/model"
 	"gorm.io/gorm"
 )
 

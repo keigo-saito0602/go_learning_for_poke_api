@@ -3,11 +3,11 @@ package handler
 import (
 	"net/http"
 
-	"github.com/keigo-saito0602/joumou_karuta_manager/domain"
-	"github.com/keigo-saito0602/joumou_karuta_manager/domain/model"
-	"github.com/keigo-saito0602/joumou_karuta_manager/usecase"
-	"github.com/keigo-saito0602/joumou_karuta_manager/util"
-	"github.com/keigo-saito0602/joumou_karuta_manager/validation"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/domain"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/domain/model"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/usecase"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/util"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/validation"
 	"github.com/labstack/echo/v4"
 )
 

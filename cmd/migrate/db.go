@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/golang-migrate/migrate"
-	"github.com/keigo-saito0602/joumou_karuta_manager/config"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/config"
 )
 
 func newMigrator() (*migrate.Migrate, error) {

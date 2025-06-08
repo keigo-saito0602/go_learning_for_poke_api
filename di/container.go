@@ -1,9 +1,9 @@
 package di
 
 import (
-	"github.com/keigo-saito0602/joumou_karuta_manager/infrastructure/db"
-	"github.com/keigo-saito0602/joumou_karuta_manager/interface/handler"
-	"github.com/keigo-saito0602/joumou_karuta_manager/validation"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/infrastructure/db"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/interface/handler"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/validation"
 	"gorm.io/gorm"
 )
 

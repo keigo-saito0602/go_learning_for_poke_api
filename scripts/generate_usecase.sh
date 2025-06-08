@@ -1,15 +1,15 @@
 NAME=$1
 LOWER=$(echo "$NAME" | tr '[:upper:]' '[:lower:]')
 
-cat <<EOF > usecase/${LOWER}_usecase.go
+cat <<EOF >usecase/${LOWER}_usecase.go
 package usecase
 
 import (
   "context"
 
-  "github.com/keigo-saito0602/joumou_karuta_manager/domain/model"
-  dbctx "github.com/keigo-saito0602/joumou_karuta_manager/infrastructure/db"
-  "github.com/keigo-saito0602/joumou_karuta_manager/infrastructure/repository"
+  "github.com/keigo-saito0602/go_learning_for_poke_api/domain/model"
+  dbctx "github.com/keigo-saito0602/go_learning_for_poke_api/infrastructure/db"
+  "github.com/keigo-saito0602/go_learning_for_poke_api/infrastructure/repository"
   "gorm.io/gorm"
 )
 

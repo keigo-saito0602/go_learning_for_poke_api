@@ -3,12 +3,12 @@ package main
 import (
 	"os"
 
-	"github.com/keigo-saito0602/joumou_karuta_manager/cmd"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/cmd"
 )
 
-// @title Joumou Karuta Manager API
+// @title go learning for poke api API
 // @version 1.0
-// @description 上毛カルタAPIのSwaggerドキュメント
+// @description POKE APIのドキュメント
 // @BasePath /
 func main() {
 	os.Exit(cmd.Run())

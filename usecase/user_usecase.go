@@ -3,13 +3,13 @@ package usecase
 import (
 	"context"
 
-	"github.com/keigo-saito0602/joumou_karuta_manager/auth"
-	"github.com/keigo-saito0602/joumou_karuta_manager/config/logger"
-	"github.com/keigo-saito0602/joumou_karuta_manager/domain"
-	"github.com/keigo-saito0602/joumou_karuta_manager/domain/model"
-	dbctx "github.com/keigo-saito0602/joumou_karuta_manager/infrastructure/db"
-	"github.com/keigo-saito0602/joumou_karuta_manager/infrastructure/repository"
-	"github.com/keigo-saito0602/joumou_karuta_manager/util"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/auth"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/config/logger"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/domain"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/domain/model"
+	dbctx "github.com/keigo-saito0602/go_learning_for_poke_api/infrastructure/db"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/infrastructure/repository"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/util"
 	"gorm.io/gorm"
 )
 

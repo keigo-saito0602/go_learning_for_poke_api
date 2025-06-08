@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/keigo-saito0602/joumou_karuta_manager/cmd/migrate"
-	"github.com/keigo-saito0602/joumou_karuta_manager/cmd/server"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/cmd/migrate"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/cmd/server"
 	"github.com/spf13/cobra"
 )
 
@@ -15,8 +15,8 @@ func Run() int {
 
 func rootCommand() *cobra.Command {
 	root := &cobra.Command{
-		Use:   "joumou",
-		Short: "Joumou Karuta Manager CLI",
+		Use:   "go_learning_for_poke_api",
+		Short: "go learning for poke api CLI",
 	}
 
 	for _, g := range commandGroups() {

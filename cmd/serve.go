@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/joho/godotenv"
-	"github.com/keigo-saito0602/joumou_karuta_manager/infrastructure/db"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/infrastructure/db"
 	"github.com/labstack/echo"
 	"github.com/spf13/cobra"
 )

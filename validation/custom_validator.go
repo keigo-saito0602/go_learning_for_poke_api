@@ -6,7 +6,7 @@ import (
 	"time"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/keigo-saito0602/joumou_karuta_manager/domain"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/domain"
 )
 
 // メール形式の正規表現

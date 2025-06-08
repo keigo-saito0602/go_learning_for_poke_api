@@ -1,22 +1,18 @@
 package di
 
 import (
-	"github.com/keigo-saito0602/joumou_karuta_manager/usecase"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/usecase"
 	"gorm.io/gorm"
 )
 
 type Usecases struct {
-	User       usecase.UserUsecase
-	Memo       usecase.MemoUsecase
-	Card       usecase.CardUsecase
-	EventScore usecase.EventScoreUsecase
+	User usecase.UserUsecase
+	Memo usecase.MemoUsecase
 }
 
 func NewUsecases(db *gorm.DB, repository *Repositories) *Usecases {
 	return &Usecases{
-		User:       usecase.NewUserUsecase(db, repository.User),
-		Memo:       usecase.NewMemoUsecase(db, repository.Memo),
-		Card:       usecase.NewCardUsecase(db, repository.Card),
-		EventScore: usecase.NewEventScoreUsecase(db, repository.EventScore),
+		User: usecase.NewUserUsecase(db, repository.User),
+		Memo: usecase.NewMemoUsecase(db, repository.Memo),
 	}
 }

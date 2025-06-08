@@ -8,9 +8,9 @@ import (
 	"syscall"
 
 	"github.com/go-delve/delve/pkg/config"
-	"github.com/keigo-saito0602/joumou_karuta_manager/config/logger"
-	"github.com/keigo-saito0602/joumou_karuta_manager/di"
-	"github.com/keigo-saito0602/joumou_karuta_manager/router"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/config/logger"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/di"
+	"github.com/keigo-saito0602/go_learning_for_poke_api/router"
 
 	"github.com/labstack/echo/v4"
 	"github.com/spf13/cobra"
